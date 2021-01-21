@@ -1,0 +1,74 @@
+/* Global Style */
+body {
+    font-family: 'Assistant', sans-serif;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+.btn-cta {
+    background-color: #FF9E53;
+    color: white;
+    padding: 4px 18px;
+}
+.btn-cta:hover {
+    background-color: #f88d3b;
+    color: white;
+}
+.btn-cta:focus {
+    box-shadow: none
+}
+
+/* Navbar Style */
+.navbar {
+    padding: 0;
+    height: 58px;
+    color: #071C4D;
+}
+.navbar .container {
+    background-color: white;
+    padding: 0;
+}
+.navbar .navbar-brand {
+    padding: 0 16px;
+}
+.navbar button {
+    margin-left: 24px;
+    border-radius: 0;
+    height: 58px;
+    width: 100px;
+    padding: 0 !important;
+    background-color: #071C4D;
+    border: none;
+}
+.navbar button:hover {
+    background-color: #05143a;
+}
+.navbar button:focus {
+    background-color: #05143a;
+    box-shadow: none;
+}
+.navbar .nav-item {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar .nav-item .nav-link {
+    padding: 0 16px;
+}
+
+/* Jumbotron Style */
+.jumbotron {
+    background-image: url("../images/jumbotron@2x.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -58px;
+    text-align: center;
+    padding-top: 160px;
+}
+.jumbotron h1, .jumbotron p {
+    color: white;
+    margin-bottom: 24px;
+}
+.jumbotron button {
+    margin-top: 16px;
+}
