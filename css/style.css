@@ -240,5 +240,8 @@ h4 {
         margin-bottom: 24px;
     }
 
-    /* Testimonial */
+    /* Bottom CTA */
+    .bottom-cta {
+        margin-top: 30px;
+    }
 }
